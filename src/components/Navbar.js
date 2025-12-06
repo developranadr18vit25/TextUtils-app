@@ -42,13 +42,13 @@ export default function Navbar({ title = "dhruvrana", about = "clickme", mode, t
   )
 }
 
-// ✅ propTypes must be lowercase 'p'
+
 Navbar.propTypes = {
   title: PropTypes.string,
   about: PropTypes.string
 };
 
-// ✅ defaultProps works for functional components
+
 Navbar.defaultProps = {
   title: 'dhruv',
   about: 'clickme'
